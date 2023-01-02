@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+svg {
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(32,49,69,1) 100%);
+}
+
+#x-axis, #y-axis {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    fill: #fff;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
